@@ -105,8 +105,13 @@ public class Main {
 //////////////Ejercicio 7/////////////////////////////////////////
 public static void main(String []args)
 {
+    var scan = new Scanner(System.in);
     
+    int A;
+    System.out.println("Ingrese el dato A");
+    A = Integer.parseInt(scan.nextLine());
     
-    
+    String R = (A%2 == 0) ? A + "Es par": A + "Es impar";
+    System.out.println(R);
 }
 }
