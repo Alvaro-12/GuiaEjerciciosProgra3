@@ -1,11 +1,12 @@
 
+import java.util.Scanner;
 //import java.util.Scanner;
 /**
  *
  * @author Alvaro 
  */
 public class Main {
-////////////Ejercicio 4//////////////////
+////////////Ejercicio 4///////////////////////////
 //    public static void main(String []args)
 //{
 //     int i = 8;
@@ -14,7 +15,6 @@ public class Main {
 //     float y = -0.01F;
 //     char c = 'c';
 //     char d = 'd';
-//        
 //
 //        System.out.println(i<=j);
 //        System.out.println(c > d);
@@ -25,7 +25,7 @@ public class Main {
 //        System.out.println(-(i+j)!=-i+j);
 //        System.out.println(i <= j &&i >= c);    
 //}     
-///////////Ejercicio 5/////////////////
+///////////Ejercicio 5///////////////////////////
 //     Scanner Datos = new Scanner(System.in);    
 //     
 //     int X, Y ;
@@ -76,26 +76,37 @@ public class Main {
 //         d.Datos();
 //        d.MDatos();
 //     }
-/////////////////////////////////////////////////////////    
-    
-    
+////////////////////////////////////////////////   
 ///////////Ejercicio 6 ////////////////////////
 
-public static void main(String []args)
-{
-   int A = 1;
-   int B = 2;
-   int C = 3;
-   int D = 4;
-   
-   System.out.println(B = C);
-   System.out.println(C = A);
-   System.out.println(A = D); 
-   System.out.println(D = B);
-    
-}    
+//public static void main(String []args)
+//{
+//    var scan = new Scanner(System.in);
+//   int A,B,C,D;
+//
+//     System.out.println("Ingrese el dato A");
+//     A = Integer.parseInt(scan.nextLine());
+//     System.out.println("Ingrese el dato B");
+//     B = Integer.parseInt(scan.nextLine());
+//     System.out.println("Ingrese el dato C");
+//     C = Integer.parseInt(scan.nextLine());
+//     System.out.println("Ingrese el dato D");
+//     D = Integer.parseInt(scan.nextLine());
+//   
+//   int E = B;
+//     
+//   System.out.println(B = C);
+//   System.out.println(C = A);
+//   System.out.println(A = D); 
+//   System.out.println(D = E);
+//    
+//}    
 
 //////////////Ejercicio 7/////////////////////////////////////////
-
-
+public static void main(String []args)
+{
+    
+    
+    
+}
 }
